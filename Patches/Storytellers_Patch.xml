@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/StorytellerDef[defName="Randy"]/label</xpath>
+    <value>
+      <label>Jesus Christ</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/StorytellerDef[defName="Randy"]/description</xpath>
+    <value>
+      <description>Jesus Christ doesn't follow rules. He'll generate random events, and he doesn't care if they make a story of triumph or utter hopelessness. It's all drama to him.\n\nWarning: Since Jesus Christ is truly random, he will sometimes send extremely difficult or unfair groups of events at you. It makes for high drama - and unavoidable sacrifices.</description>
+    </value>
+  </Operation>
+
+</Patch>
